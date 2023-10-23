@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main (){
+int n=8,factorial=1;
+for(int i=1;i<=n;i++){
+factorial *=i;
+}
+printf ("value of factorial 8 is %d",factorial);
+return 0;
+}
